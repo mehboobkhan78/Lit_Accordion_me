@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lit App Lit Element Simple Starter Kit</title>
-    <script type="module" src="./src/components/Accordin.ts"></script>
-</head>
-<body>
-   <custom-accordion></custom-accordion>    <!-- <script type="module" src="/src/lit-app.ts"></script> -->
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Accordion</title>
+    <script type="module" src="/src/components/main_accordion.ts"></script>
+  </head>
+  <body>
+    <!-- HTML Properties: directly reflect into the Lit component -->
+    <custom-accordion
+      show-secondary-text
+      type="no-outlined"
+    ></custom-accordion>
+   <dx-accordion></dx-accordion>
+  </body>
 </html>
